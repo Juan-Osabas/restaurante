@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>El Olivo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+    <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#8B0000;">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold text-warning" href="index.html">🍴 El Olivo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active text-warning" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link text-light" href="menu.html">Menú</a></li>
+          <li class="nav-item"><a class="nav-link text-light" href="promociones.html">Promociones</a></li>
+          <li class="nav-item"><a class="nav-link text-light" href="reservaciones.html">Reservaciones</a></li>
+          <li class="nav-item"><a class="nav-link text-light" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Sección Contacto y Ubicación -->
+<div class="container mt-5">
+  <h2 class="text-center text-danger mb-4">Contacto y Ubicación</h2>
+
+  <div class="row">
+    <!-- Formulario de contacto -->
+    <div class="col-md-6">
+      <div class="card shadow-sm border-0">
+        <div class="card-body" style="background-color:#FFF3CD; border-radius:8px;">
+          <form>
+            <!-- Nombre -->
+            <div class="mb-3">
+              <label for="nombre" class="form-label text-danger">Nombre</label>
+              <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+            </div>
+
+            <!-- Correo -->
+            <div class="mb-3">
+              <label for="correo" class="form-label text-danger">Correo electrónico</label>
+              <input type="email" class="form-control" id="correo" placeholder="ejemplo@correo.com">
+            </div>
+
+            <!-- Mensaje -->
+            <div class="mb-3">
+              <label for="mensaje" class="form-label text-danger">Mensaje</label>
+              <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje aquí"></textarea>
+            </div>
+
+            <!-- Botón -->
+            <button type="submit" class="btn btn-danger w-100 fw-bold">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mapa de ubicación -->
+    <div class="col-md-6 mt-4 mt-md-0">
+      <div class="card shadow-sm border-0">
+        <div class="card-body" style="background-color:#FFE5B4; border-radius:8px;">
+          <h5 class="text-danger">Ubicación</h5>
+          <p class="text-dark">Estamos en el corazón de Managua, Nicaragua.</p>
+          <!-- Google Maps integrado -->
+          <div style="width:100%; height:300px; border-radius:8px; overflow:hidden;">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3876.123456789!2d-86.251!3d12.136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x123456789abcdef!2sRestaurante%20Ficticio!5e0!3m2!1ses!2sni!4v1620000000000!5m2!1ses!2sni" 
+              width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Footer -->
+<footer class="text-light mt-5" style="background-color:#8B0000;">
+  <div class="container py-4">
+    <div class="row">
+      
+      <!-- Información del restaurante -->
+      <div class="col-md-4 mb-3">
+        <h5 class="text-warning">El Olivo</h5>
+        <p class="text-light">Sabores auténticos de Nicaragua en un ambiente cálido y familiar.</p>
+      </div>
+
+      <!-- Enlaces rápidos -->
+      <div class="col-md-4 mb-3">
+        <h5 class="text-warning">Enlaces rápidos</h5>
+        <ul class="list-unstyled">
+          <li><a href="index.html" class="text-light text-decoration-none">Inicio</a></li>
+          <li><a href="menu.html" class="text-light text-decoration-none">Menú</a></li>
+          <li><a href="promociones.html" class="text-light text-decoration-none">Promociones</a></li>
+          <li><a href="reservaciones.html" class="text-light text-decoration-none">Reservaciones</a></li>
+          <li><a href="contacto.html" class="text-light text-decoration-none">Contacto</a></li>
+        </ul>
+      </div>
+
+      <!-- Redes sociales -->
+      <div class="col-md-4 mb-3">
+        <h5 class="text-warning">Síguenos</h5>
+        <a href="#" class="text-light me-3"><i class="bi bi-facebook"></i> Facebook</a><br>
+        <a href="#" class="text-light me-3"><i class="bi bi-instagram"></i> Instagram</a><br>
+        <a href="#" class="text-light"><i class="bi bi-whatsapp"></i> WhatsApp</a>
+      </div>
+    </div>
+
+    <hr class="border-light">
+    <p class="text-center text-light mb-0">© 2026 El Olivo - Todos los derechos reservados</p>
+  </div>
+</footer>
+
+
+</body>

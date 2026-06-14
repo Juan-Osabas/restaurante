@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurante Ficticio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#8B0000;">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bold text-warning" href="index.html">🍴 El Olivo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active text-warning" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link text-light" href="menu.html">Menú</a></li>
+          <li class="nav-item"><a class="nav-link text-light" href="promociones.html">Promociones</a></li>
+          <li class="nav-item"><a class="nav-link text-light" href="reservaciones.html">Reservaciones</a></li>
+          <li class="nav-item"><a class="nav-link text-light" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Sección Menú -->
+  <div class="container mt-5">
+    <h2 class="text-center text-danger mb-2">Menú</h2>
+    <h3 class="text-start text-danger mb-4">Platillos</h3>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <!-- Platillo 1 -->
+      <div class="col">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="./bootstrap-5.3.8-dist/img2/gallopinto.jpg" class="card-img-top" alt="Gallo Pinto" style="max-height:200px; object-fit:cover; border-radius:8px;">
+          <div class="card-body" style="background-color:#FFF3CD;">
+            <h5 class="card-title text-danger">Gallo Pinto</h5>
+            <p class="card-text text-dark">Tradicional plato nicaragüense de arroz y frijoles, acompañado de huevos y queso.</p>
+            <p class="fw-bold text-info">$5.00</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Platillo 2 -->
+      <div class="col">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="./bootstrap-5.3.8-dist/img2/nacatamal.jpg" class="card-img-top" alt="Nacatamal" style="max-height:200px; object-fit:cover; border-radius:8px;">
+          <div class="card-body" style="background-color:#FFE5B4;">
+            <h5 class="card-title text-danger">Nacatamal</h5>
+            <p class="card-text text-dark">Delicioso tamal de maíz relleno de carne, arroz y verduras, envuelto en hojas de plátano.</p>
+            <p class="fw-bold text-info">$3.50</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Platillo 3 -->
+      <div class="col">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="./bootstrap-5.3.8-dist/img2/indio_viejo.jpg" class="card-img-top" alt="Indio Viejo" style="max-height:200px; object-fit:cover; border-radius:8px;">
+          <div class="card-body" style="background-color:#FFF8E1;">
+            <h5 class="card-title text-danger">Indio Viejo</h5>
+            <p class="card-text text-dark">Guiso espeso de carne de res con tortilla de maíz, verduras y especias tradicionales.</p>
+            <p class="fw-bold text-info">$6.00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sección Bebidas -->
+  <div class="container mt-5">
+    <h3 class="text-start text-danger mb-4">Bebidas</h3>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <!-- Bebida 1 -->
+      <div class="col">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="./bootstrap-5.3.8-dist/img2/Cacao.jpg" class="card-img-top" alt="Refresco de Cacao" style="max-height:200px; object-fit:cover; border-radius:8px;">
+          <div class="card-body" style="background-color:#FFF3CD;">
+            <h5 class="card-title text-danger">Refresco de Cacao</h5>
+            <p class="card-text text-dark">Bebida tradicional de cacao con leche y azúcar.</p>
+            <p class="fw-bold text-info">$2.50</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bebida 2 -->
+      <div class="col">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="./bootstrap-5.3.8-dist/img2/chicha.jpg" class="card-img-top" alt="Chicha de Maíz" style="max-height:200px; object-fit:cover; border-radius:8px;">
+          <div class="card-body" style="background-color:#FFE5B4;">
+            <h5 class="card-title text-danger">Chicha de Maíz</h5>
+            <p class="card-text text-dark">Bebida tradicional de maíz fermentado, dulce y refrescante.</p>
+            <p class="fw-bold text-info">$2.00</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bebida 3 -->
+      <div class="col">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="./bootstrap-5.3.8-dist/img2/mango.jpg" class="card-img-top" alt="Jugo Natural de Mango" style="max-height:200px; object-fit:cover; border-radius:8px;">
+          <div class="card-body" style="background-color:#FFF8E1;">
+            <h5 class="card-title text-danger">Jugo Natural de Mango</h5>
+            <p class="card-text text-dark">Refresco natural de mango, ideal para un día caluroso.</p>
+            <p class="fw-bold text-info">$2.50</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sección Postres -->
+  <div class="container mt-5">
+    <h3 class="text-start text-danger mb-4">Postres</h3>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <!-- Postre 1 -->
+      <div class="col">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="./bootstrap-5.3.8-dist/img2/tres_leches.jpg" class="card-img-top" alt="Tres Leches" style="max-height:220px; object-fit:cover; border-radius:8px;">
+          <div class="card-body" style="background-color:#FFF3CD;">
+            <h5 class="card-title text-danger">Tres Leches</h5>
+            <p class="card-text text-dark">Pastel bañado en mezcla de tres tipos de leche, suave y delicioso.</p>
+            <p class="fw-bold text-info">$3.50</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Postre 2 -->
+      <div class="col">
+        <div class="card h-100 shadow-sm border-0">
+          <img src="./bootstrap-5.3.8-dist/img2/pio_quinto.jpg" class="card-img-top" alt="Pio Quinto" style="max-height:220px; object-fit:cover; border-radius:8px;">
+          <div class="card-body" style="background-color:#FFE5B4;">
+            <h5 class="card-title text-danger">Pio Quinto</h5>
+            <p class="card-text text-dark">Bizcocho con ron y crema, postre típico nicaragüense.</p>
+            <p class="fw-bold text-info">$3.50</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Postre 3 -->
+    <div class="col">
+      <div class="card h-100 shadow-sm border-0">
+        <img src="./bootstrap-5.3.8-dist/img2/coco.jpg" class="card-img-top" alt="Cajeta de coco"
+             style="max-height:220px; object-fit:cover; border-radius:8px;">
+        <div class="card-body" style="background-color:#FFE5B4;">
+          <h5 class="card-title text-danger">Cajeta de coco</h5>
+          <p class="card-text text-dark">
+            Postre tradicional nicaragüense dulce con coco rallado y leche condensada.
+          </p>
+          <p class="fw-bold text-info">$2.50</p>
+        </div>
+      </div>
+    </div>
+
+  </div> <!-- Fin row -->
+</div> <!-- Fin container -->
+
+<!-- Footer -->
+<footer class="text-light mt-5" style="background-color:#8B0000;">
+  <div class="container py-4">
+    <div class="row">
+
+      <!-- Información del restaurante -->
+      <div class="col-md-4 mb-3">
+        <h5 class="text-warning">El Olivo</h5>
+        <p class="text-light">
+          Sabores auténticos de Nicaragua en un ambiente cálido y familiar.
+        </p>
+      </div>
+
+      <!-- Enlaces rápidos -->
+      <div class="col-md-4 mb-3">
+        <h5 class="text-warning">Enlaces rápidos</h5>
+        <ul class="list-unstyled">
+          <li><a href="index.html" class="text-light text-decoration-none">Inicio</a></li>
+          <li><a href="menu.html" class="text-light text-decoration-none">Menú</a></li>
+          <li><a href="promociones.html" class="text-light text-decoration-none">Promociones</a></li>
+          <li><a href="reservaciones.html" class="text-light text-decoration-none">Reservaciones</a></li>
+          <li><a href="contacto.html" class="text-light text-decoration-none">Contacto</a></li>
+        </ul>
+      </div>
+
+      <!-- Redes sociales -->
+      <div class="col-md-4 mb-3">
+        <h5 class="text-warning">Síguenos</h5>
+        <a href="#" class="text-light d-block mb-1">Facebook</a>
+        <a href="#" class="text-light d-block mb-1">Instagram</a>
+        <a href="#" class="text-light d-block">WhatsApp</a>
+      </div>
+
+    </div>
+
+    <hr class="border-light">
+
+    <p class="text-center text-light mb-0">
+      © 2026 El Olivo - Todos los derechos reservados
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
